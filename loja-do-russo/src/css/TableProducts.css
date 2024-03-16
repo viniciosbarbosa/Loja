@@ -1,0 +1,57 @@
+.tbl__geral {
+    border: 2px solid;
+    width: 70%;
+    border-radius: 5px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 5rem;
+    }
+    
+    .tbl__head {
+      background-color: #022483;
+      color: white;
+      font-family: sans-serif;
+    }
+    
+    .tbl__head th {
+      padding: 15px;
+      text-align: center;
+      border: none; 
+    }
+    
+    .tbl__body td {
+      padding: 10px;
+      text-align: center;
+      border: none; 
+    }
+    
+    .tbl__body td button {
+      margin: 0.5rem;
+      border: 1px solid #022483;
+      border-radius: 20px;
+      color: #022483;
+      font-family: sans-serif;
+      width: 6rem;
+      height: 2rem;
+      transition: .3s;
+      background: white;
+      cursor: pointer;
+    }
+  
+    .tbl__body td button:hover{
+      transform: scale(1.05);
+    }
+    
+   
+    .tbl__body tr:nth-child(odd) {
+      background-color: #c4c2c2; 
+      color: rgb(253, 253, 253);
+      font-family: sans-serif;
+      text-transform: capitalize;
+    }
+    .tbl__body tr:nth-child(even) {
+      background-color: #a8a7a7;
+      color: rgb(253, 253, 253);
+      font-family: sans-serif; 
+      text-transform: capitalize;
+    }

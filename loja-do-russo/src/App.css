@@ -1,0 +1,18 @@
+:root{
+  background:whitesmoke;
+}
+.app{
+  margin-left: 12.5rem;
+}
+
+.menu__mobile{
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+}
+
+@media screen and (max-width: 600px){
+  .app{
+    margin-left:0rem;
+  }
+}

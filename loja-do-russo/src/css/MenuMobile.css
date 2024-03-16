@@ -1,0 +1,30 @@
+.MenuMobile{
+    display: none;
+}
+
+.menu_btn{
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+@media screen and (max-width: 600px){
+    .MenuMobile{
+        display: initial;
+    }
+    
+    .MenuMobile.active{
+        display: none;
+    }
+
+    .menu_btn{
+        display: initial;   
+    }
+
+    .menu__mobile__tela{
+        width: 2rem;
+        margin-top: 0.5rem;
+    }
+}

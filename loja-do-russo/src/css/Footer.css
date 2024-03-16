@@ -1,0 +1,26 @@
+.footer{
+    background: rgb(175, 175, 175);
+    min-height: 2.5rem;
+    min-width: calc(100% - 200px);
+    position: absolute;
+    bottom: 0;
+}
+
+.footer span{
+    display: block;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: end;
+}
+
+.footerSpace{
+    padding: 1rem;
+}
+
+@media screen and (max-width: 600px){
+   .footer{
+    min-width: 100%;
+    position: fixed;
+   }
+}
